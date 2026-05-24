@@ -1,0 +1,27 @@
+# Локальные и временные файлы
+.env
+*.log
+*.tmp
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+node_modules/
+
+# Большие или исходные данные
+data/raw/*
+data/interim/*
+*.zip
+*.7z
+*.rar
+*.db
+
+# Разрешаем маленькие демонстрационные примеры
+!data/sample/
+!data/sample/*.csv
+!data/sample/*.txt
+!data/sample/*.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
